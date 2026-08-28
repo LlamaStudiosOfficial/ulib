@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xghK5XS5yOU=",
+  "success": true,
+  "projectFilePath": "/home/alex/src/ulib/csharp/ULib.csproj",
+  "expectedPackageFiles": [
+    "/home/alex/.nuget/packages/microsoft.netcore.app.ref/8.0.30/microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.30/microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.11/microsoft.aspnetcore.app.ref.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

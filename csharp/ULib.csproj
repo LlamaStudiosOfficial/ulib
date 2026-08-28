@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <RootNamespace>UlibRuntime</RootNamespace>
+  </PropertyGroup>
+
+  <Target Name="BuildRustLib" BeforeTargets="BeforeBuild">
+    <Exec Command="cargo build --release" WorkingDirectory="$(MSBuildThisFileDirectory).." />
+  </Target>
+
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)..\target\release\libulib.so"
+             Link="libulib.so"
+             CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

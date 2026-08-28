@@ -1,0 +1,12 @@
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ULib.GeneratedMSBuildEditorConfig.editorconfig
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ULib.AssemblyInfoInputs.cache
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ULib.AssemblyInfo.cs
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ULib.csproj.CoreCompileInputs.cache
+/home/alex/src/ulib/csharp/bin/Debug/net8.0/ULib.deps.json
+/home/alex/src/ulib/csharp/bin/Debug/net8.0/ULib.dll
+/home/alex/src/ulib/csharp/bin/Debug/net8.0/ULib.pdb
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ULib.dll
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/refint/ULib.dll
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ULib.pdb
+/home/alex/src/ulib/csharp/obj/Debug/net8.0/ref/ULib.dll
+/home/alex/src/ulib/csharp/bin/Debug/net8.0/libulib.so

@@ -1,0 +1,20 @@
+# Read the Docs configuration file for ULib
+# See https://docs.readthedocs.io/en/stable/config-file/index.html
+
+version: 2
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
+sphinx:
+  configuration: docs/source/conf.py
+
+formats:
+  - htmlzip
+  - pdf
+
+python:
+  install:
+    - requirements: docs/requirements.txt

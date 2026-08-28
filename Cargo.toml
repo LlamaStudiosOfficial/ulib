@@ -1,0 +1,12 @@
+[package]
+name = "ulib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+winit = "0.30"
+raw-window-handle = "0.6"
+softbuffer = "0.4"
